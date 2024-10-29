@@ -286,4 +286,52 @@ input[type="file"] {
     text-align: center;
     align-items: center;
     padding:2%;
+    
+}
+@media  screen and (max-width:900px){
+    .page-4{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+    .img-M{
+        display:flex;
+        flex-direction: column;
+
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    .Carousel-Form-Container{
+        display:block;
+    }
+    .Carousel-Form-Container img{
+        height:300px;
+    }
+    .Services{
+        display:block;}
+    .impact{
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    .page-3-grid{
+        display:flex;
+        flex-direction:column;
+    }
+    .page-4{
+        display:flex;
+        flex-direction:column;
+    }
+    .Maketronics{
+        margin:2%;
+    }
+    .img-M div{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
